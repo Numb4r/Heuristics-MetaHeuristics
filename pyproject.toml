@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tsp-h"
+version = "0.1.0"
+description = ""
+authors = ["Yuri Dimitre Dias de Faria <yuri.faria@enacom.com.br>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tsp_h"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tsplib95 = "^0.7.1"
+pydantic = "^2.3.0"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
