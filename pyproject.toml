@@ -8,10 +8,11 @@ readme = "README.md"
 packages = [{include = "tsp_h"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 tsplib95 = "^0.7.1"
 pydantic = "^2.3.0"
 argparse = "^1.4.0"
+matplotlib = "^3.7.2"
 
 
 [build-system]
